@@ -1,0 +1,35 @@
+# Carpeta de compilación de Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+# Configuraciones locales del usuario
+UserSettings/
+
+# Archivos de Visual Studio / Rider / VSCode
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos generados por Unity
+*.unityproj
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.log
+
+# Crash dumps
+crash.log

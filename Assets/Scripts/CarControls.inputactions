@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "CarControls",
+    "maps": [
+        {
+            "name": "Driving",
+            "id": "06b0c73f-c788-404c-89d6-05c9929785ad",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "de59c589-14fc-44ef-9f4d-5e36ec533b1e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "b010a764-64e4-4381-a1b8-224b5c8a7f7c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e1e8581d-e5e9-470e-85b3-712622f87342",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Move",
+                    "id": "73d2c837-06f0-4a2f-8fb5-2ea60d1ff50a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "cd1a96dd-f118-4579-96a3-9c0fa277d4ac",
+                    "path": "w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "7162bebe-f077-44ac-84c7-0a0bab686aef",
+                    "path": "s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "31a98da1-cf16-4fea-858f-c70db44d1a95",
+                    "path": "a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8980a3c1-691e-4703-a058-3cd3ac370e78",
+                    "path": "d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
